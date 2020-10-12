@@ -1,0 +1,10 @@
+{
+    "datadogSite": "datadoghq.com",
+    "files": "{,!(node_modules)/**/}*.synthetics.json",
+    "global": {
+        "allowInsecureCertificates": true,
+        "startUrl": "https://enapfso5tvcc.x.pipedream.net/",
+        "pollingTimeout": 180000
+    },
+    "subdomain": "siobhan-sandbox"
+}
